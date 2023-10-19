@@ -1,0 +1,10 @@
+build:
+  n18app:
+    context: .
+
+dev:
+  n18app:
+    image: ${OKTETO_BUILD_N18APP_IMAGE}
+    autocreate: true
+    command: bash
+
