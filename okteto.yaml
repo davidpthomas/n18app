@@ -11,4 +11,6 @@ dev:
     image: ${OKTETO_BUILD_N18APP_IMAGE}
     autocreate: true
     command: bash
+    sync:
+      - .:/code
 
