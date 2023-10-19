@@ -2,6 +2,10 @@ build:
   n18app:
     context: .
 
+deploy:
+  commands: 
+    - true
+
 dev:
   n18app:
     image: ${OKTETO_BUILD_N18APP_IMAGE}
